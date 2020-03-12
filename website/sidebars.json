@@ -1,0 +1,24 @@
+{
+  "developers": {
+    "Getting Started": ["startingDev", "quickstartDev", "development"]
+  },
+  "users": {
+    "Getting Started": ["startingUser", "userCreateAccount"],
+    "M2M Wallet": ["userM2mWallet", "userStaking"],
+    "LPWAN Management": [
+      "userLPWAN",
+      "serviceProfiles",
+      "deviceProfiles",
+      "applications",
+      "multicastGroups",
+      "devices",
+      "gateway",
+      "frameLogging",
+      "eventLogging",
+      "firmwareUpdate"
+    ]
+  },
+   "release": {
+    "Versions": ["v.1.0.X"]
+  }
+}
