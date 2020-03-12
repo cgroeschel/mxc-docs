@@ -8,8 +8,7 @@ jobs:
   publish:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v2
         - uses: actions/setup-node@v1
           with:
             node-version: 12
-        - run: GIT_USER=${{ secrets.GH_USER }} CURRENT_BRANCH=master cd website && env && yarn run publish-gh-pages
+        - run: GIT_USER=${{ secrets.GH_USER }} CURRENT_BRANCH=master cd website && yarn run publish-gh-pages
